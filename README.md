@@ -1,3 +1,5 @@
+# Obtener GPS desde celular y mostrarlo en mapa
+
 Este proyecto es básico y muestra la ubicación actual del usuario en el mapa. Puedes extenderlo para guardar los datos GPS en una base de datos, mostrar rutas, o agregar más funcionalidades según tus necesidades.
 
 Este código crea una página que utiliza Leaflet y otra página que usa Google maps, para mostrar un mapa y agregar marcadores de ubicaciones obtenidas desde la base de datos mediante una solicitud AJAX a un archivo PHP. El archivo PHP se conecta a la base de datos, obtiene las ubicaciones y las devuelve en formato JSON para ser mostradas en el mapa.
