@@ -11,10 +11,9 @@ Para obtener permisos de ubicación en una aplicación Android, necesitas agrega
 1.	Abre el archivo AndroidManifest.xml en tu proyecto Android. Por lo general, se encuentra en la carpeta app/src/main de tu proyecto.
 2.	Dentro de las etiquetas <manifest> y </manifest>, agrega la siguiente línea de código para solicitar el permiso de ubicación precisa (ACCESS_FINE_LOCATION):
 
-xml
-Copy code
+```xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
-
+```
 
 
 El código anterior solicita permiso para acceder a la ubicación precisa del dispositivo. Si tu aplicación necesita acceso a la ubicación aproximada, puedes usar ACCESS_COARSE_LOCATION en lugar de ACCESS_FINE_LOCATION. Sin embargo, si tu aplicación requiere una ubicación más precisa, como para aplicaciones de navegación o rastreo, ACCESS_FINE_LOCATION es más adecuado.
